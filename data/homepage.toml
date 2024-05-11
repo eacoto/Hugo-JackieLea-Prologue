@@ -1,0 +1,47 @@
+# This is a TOML example file
+
+[header]
+    title = "Jackie Lea Shelley"
+    subtitle = "Watercolor Artist"
+    url = "/#top"
+    avatar = "/images/avatar.jpg"
+
+[intro]
+    title = "Jackie Lea Shelley"
+    subtitle = "Unique Watercolor Portraits"
+    bckGround = "/images/banner.jpg"
+    btnTitle = "Portfolio"
+    url = "#portfolio"
+    btnEnabled = true
+
+[social]
+    [[social.params]]
+        name = "Twitter"
+        enabled = true
+        url = "/"
+        icon = "fa-twitter"
+
+    [[social.params]]
+        name = "Facebook"
+        enabled = true
+        url = "/"
+        icon = "fa-facebook-f"
+    
+    [[social.params]]
+        name = "Instagram"
+        enabled = true
+        url = "/"
+        icon = "fa-instagram"
+    
+    [[social.params]]
+        name = "LinkedIn"
+        enabled = true
+        url = "/"
+        icon = "fa-linkedin"
+
+    # Add more social platforms here...
+
+[footer]
+    untitled = " Untitled."
+    design = "HTML5 UP"
+    url = "http://html5up.net"
