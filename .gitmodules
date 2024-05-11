@@ -1,0 +1,3 @@
+[submodule "themes/Hugo-html5up-Prologue"]
+	path = themes/Hugo-html5up-Prologue
+	url = git@github.com:eacoto/Hugo-html5up-Prologue.git
