@@ -1,0 +1,37 @@
+{{ $data := index .Site.Data.homepage }}
+{{ $avatar := $data.header.avatar }}
+{{ $Title := $data.header.title }}
+{{ $SubTitle := $data.header.subtitle }}
+
+<!-- Header -->
+<div id="header">
+  <div class="top">
+    <!-- Logo -->
+    <div id="logo">
+      <a href="{{ .Permalink }} ">
+        <span class="image avatar48">
+          {{ with resources.Get $avatar }}
+          <img src="{{ .Permalink }}" alt="" />
+          {{ end }}
+        </span>
+        <h1 id="title">{{ $Title }}</h1>
+        <p>{{ $SubTitle }}</p>
+      </a>
+    </div>
+    <!-- Nav -->
+    {{ partial "body/navbar" . }}
+  </div>
+  <div class="bottom">
+    <!-- Social Icons -->
+    <ul class="icons">
+      {{- range $data.social.params }}
+      {{ if .enabled }}
+      <li>
+        <a href="{{ .url }}" class="icon brands {{ .icon }}">
+          <span class="label">{{.name }} </span></a>
+      </li>
+      {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+</div>
