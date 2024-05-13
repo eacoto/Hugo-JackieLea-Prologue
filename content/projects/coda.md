@@ -1,7 +1,7 @@
 ---
 title: "Coda"
 date: "2024-02-05T13:24:42-05:00"
-src: "/images/watercolor/coda2.jpg"
+src: "/images/watercolor/Coda2.jpg"
 weight: 5
 ---
 

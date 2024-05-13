@@ -1,7 +1,7 @@
 ---
 title: "Bella"
 date: "2024-02-05T13:25:17-05:00"
-src: "/images/watercolor/bella.jpg"
+src: "/images/watercolor/Bella.jpg"
 weight: 6
 ---
 
